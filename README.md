@@ -5,3 +5,10 @@ Front End project template. This template is intended to be used as a base start
  - eslint - A basic ESLint configuration for JavaScript linting.
  - prettier - A basic Prettier configuration for code formatting.
  - jsconfig - A basic JavaScript configuration file for module resolution and type safety.
+
+## Getting Started
+To start the project run the command:
+
+```sh
+make run
+```
