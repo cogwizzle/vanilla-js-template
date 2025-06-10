@@ -1,10 +1,12 @@
 {
   "name": "vanilla-js-template",
+  "type": "module",
   "version": "0.0.5",
   "description": "Front End project template. This template is intended to be used as a base starting project for Vanilla JavaScript, HTML, and CSS projects.",
-  "main": "src/index.js",
+  "main": "public/src/index.js",
   "scripts": {
-    "start": "web-dev-server --node-resolve --watch --port 8080 --root-dir . --open ",
+    "build": "rollup --config rollup.config.js",
+    "start": "web-dev-server --node-resolve --watch --port 8080 --root-dir public --open ",
     "test": "web-test-runner src/**/*.test.{html,js,mjs} --node-resolve"
   },
   "repository": {
@@ -33,11 +35,12 @@
     "@open-wc/testing": "^4.0.0",
     "@types/mocha": "^10.0.10",
     "@web/dev-server": "^0.4.6",
+    "@web/rollup-plugin-html": "^2.3.0",
+    "@web/rollup-plugin-import-meta-assets": "^2.2.1",
     "@web/test-runner": "^0.20.2",
     "eslint": "^9.28.0",
-    "prettier": "^3.5.3"
-  },
-  "dependencies": {
-    "@picocss/pico": "^2.1.1"
+    "prettier": "^3.5.3",
+    "rollup": "^4.42.0",
+    "rollup-plugin-copy": "^3.5.0"
   }
 }
