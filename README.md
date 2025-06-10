@@ -12,3 +12,9 @@ To start the project run the command:
 ```sh
 npm start
 ```
+
+## Build
+To build the project for production, run the command:
+```sh
+npm run build
+```
