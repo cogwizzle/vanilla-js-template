@@ -10,5 +10,5 @@ Front End project template. This template is intended to be used as a base start
 To start the project run the command:
 
 ```sh
-make run
+npm start
 ```
