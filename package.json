@@ -2,7 +2,7 @@
   "name": "vanilla-js-template",
   "version": "0.0.5",
   "description": "Front End project template. This template is intended to be used as a base starting project for Vanilla JavaScript, HTML, and CSS projects.",
-  "main": "src/index.mjs",
+  "main": "src/index.js",
   "scripts": {
     "start": "web-dev-server --node-resolve --watch --port 8080 --root-dir . --open ",
     "test": "web-test-runner src/**/*.test.{html,js,mjs} --node-resolve"
