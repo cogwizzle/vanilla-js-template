@@ -1,0 +1,43 @@
+{
+  "name": "vanilla-js-template",
+  "version": "0.0.5",
+  "description": "Front End project template. This template is intended to be used as a base starting project for Vanilla JavaScript, HTML, and CSS projects.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --watch --port 8080 --root-dir . --open ",
+    "test": "web-test-runner src/**/*.test.{html,js,mjs} --node-resolve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogwizzle/vanilla-js-template.git"
+  },
+  "keywords": [
+    "vanilla",
+    "javascript",
+    "js",
+    "jsdocs",
+    "no-build",
+    "buildless",
+    "easy",
+    "template",
+    "starter"
+  ],
+  "author": "cogwizzle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cogwizzle/vanilla-js-template/issues"
+  },
+  "homepage": "https://github.com/cogwizzle/vanilla-js-template#readme",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@open-wc/testing": "^4.0.0",
+    "@types/mocha": "^10.0.10",
+    "@web/dev-server": "^0.4.6",
+    "@web/test-runner": "^0.20.2",
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.1.1"
+  }
+}
